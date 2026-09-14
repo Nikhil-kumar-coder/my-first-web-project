@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #eef2f7;
+}
+
+/* Navigation */
+nav {
+    background-color: #1d3557;
+    padding: 10px;
+}
+
+/* Heading */
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 20px;
+    color: rgb(197, 27, 27);
+}
+
+/* Common style for all boxes */
+.box,
+.box1,
+.box2,
+.box3,
+.box4 {
+    width: 60%;
+    height: 250px;
+    margin: 20px auto;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    border-radius: 10px;
+}
+
+/* Different colors */
+.box {
+    background-color: #a8dadc;
+}
+
+.box1 {
+    background-color: #cdb4db;
+}
+
+.box2 {
+    background-color: #90dbf4;
+}
+
+.box3 {
+    background-color: #ffb703;
+}
+
+.box4 {
+    background-color: #f4a261;
+}
+
+/* Links */
+a {
+    font-size: 20px;
+    color: #1d3557;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #1d3557;
+    color: white;
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: white;
+    color: #1d3557;
+    border: 2px solid #1d3557;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d3557;
+    color: white;
+}
